@@ -9,11 +9,11 @@ body {
 }
 
 .container {
-    width: 1180px;
+    width: 1300px;
     margin: 0 auto;
 }
 
-.padding-mar {
+.p-m-0 {
     padding: 0;
     margin: 0;
 }
@@ -27,6 +27,10 @@ body {
     align-items: center;
 }
 
+.description-color {
+    color: rgba(14, 14, 14, 0.7);
+}
+
 .section-title {
     color: rgb(14, 14, 14);
     font-size: 40px;
@@ -35,11 +39,12 @@ body {
 }
 
 .section-description {
-    color: rgba(14, 14, 14, 0.7);
+
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
+
 
 
 /* banner style  ----------------------------------*/
@@ -69,7 +74,7 @@ nav {
 }
 
 .banner-container {
-    gap: 64px;
+    gap: 54px;
     padding: 80px;
     border-radius: 24px;
     background-color: rgb(198, 228, 214);
@@ -102,3 +107,69 @@ nav {
     font-weight: 600;
     cursor: pointer;
 }
+
+/* vision of future section style  *******************************************/
+.vision-container{
+    margin-top: 80px;
+}
+.vision-content {
+   gap: 32px;
+   margin-top: 32px;
+}
+
+.vision-card{
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 30px;
+}
+
+.card-des {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.vision-btn {
+    border-radius: 8px;
+    padding: 11px 20px;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+.digital-btn{
+    background: #5490F5;
+}
+.energy-btn{
+    background: #09A15C;
+}
+
+.modern-btn{
+    background: #FFC239;
+}
+.digital {
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.energy{
+    background:#C6E4D6;
+}
+
+.modern{
+    background: #F7EBCF;
+}
+
+
+/* quot container ------------------- */
+
