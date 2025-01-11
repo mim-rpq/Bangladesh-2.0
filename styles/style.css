@@ -51,10 +51,11 @@ body {
 
 /* banner style  ----------------------------------*/
 
-header{
+header {
     width: 1300px;
     margin: 0 auto;
 }
+
 nav {
     justify-content: space-between;
     align-items: center;
@@ -238,7 +239,7 @@ nav {
     margin-top: 10px;
 }
 
-.date{
+.date {
     margin: 10px 0px;
 }
 
@@ -254,10 +255,71 @@ nav {
     margin-top: 10px;
 }
 
-.news-card{
+.news-card {
     gap: 32px;
     background: #FFFFFF;
     padding: 48px;
     border-radius: 24px;
     margin-top: 32px;
+}
+
+
+/* donate section  =====================================*/
+
+.donate-title {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.donate-des {
+    text-align: center;
+}
+
+.donate-card {
+    gap: 34px;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.money-card {
+    padding: 40px;
+    background: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+.donate-card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.second-donate-card-bg {
+    background: #C6E4D6;
+}
+
+.input-con {
+    text-align: center;
+    margin: 32px;
+
+}
+
+input::placeholder {
+    color: rgba(14, 14, 14, 0.3);
+}
+
+input {
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    border: 0;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
 }
